@@ -1,0 +1,139 @@
+.pageHeader{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 1px 1px #cccccc;
+    position: fixed;
+    z-index: 1;
+}
+.header__container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__left{
+    display: flex;
+    flex:0.5;
+    align-items: center;
+}
+.header__logo{
+    height: 40px;
+}
+.logo{
+    margin-left: 100px;
+}
+.logo a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:#006eff;
+}
+.logo a h4{
+    font-size: 22px;
+}
+.header__search{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 40px;
+    grid-template-rows: 40px;
+    cursor: pointer;
+    width: 60%;
+    margin-left: 20px;
+}
+.header__search__input{
+    outline: none;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+.header__search__icon{
+    background-color:turquoise;
+    border-left: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    transition: 0.5s;
+}
+.header__search__icon:hover{
+    background-color:#045054;
+}
+
+
+
+
+
+
+
+/* header__right */
+.header__right{
+    height: 100%;
+    display: flex;
+    flex: 0.5;
+    align-items: center;
+}
+.header__options{
+    height: 100%;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    list-style: none;
+}
+.header__options a{
+    font-size:14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #888888;
+    cursor: pointer;
+    transition: 0.25s;
+    padding: 10px;
+}
+.header__options a:hover{
+    color: #045054;
+    text-decoration: underline;
+}
+.header__button{
+    background-color:turquoise;
+    height: 40px;
+    width: 140px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #045054;
+    border: none;
+    border-radius: 3px;
+    transition: 0.25s;
+    font-weight: bold;
+    margin-right: 30px;
+}
+.header__button:hover{
+    background-color:#045054;
+    color: white;
+}
+.browse__button{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .logo{
+        margin-left: 10px;
+    }
+    .header__search{
+        display: none;
+    }
+    .header__options{
+        display: none;
+    }
+    .header__button{
+        margin-left: 80px;
+        margin-right: 0px;
+    }
+}

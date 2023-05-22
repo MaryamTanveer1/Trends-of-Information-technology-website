@@ -1,0 +1,31 @@
+.comapnies{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.companies__contanier{
+    height: auto;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.comapnies__header{
+    padding: 20px;
+    margin-top: 40px;
+}
+.companies__list{
+    list-style:decimal;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .companies__contanier{
+        padding: 25px;
+    }
+}

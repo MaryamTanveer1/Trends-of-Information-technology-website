@@ -1,0 +1,33 @@
+.explaination__page{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.explaination__conainer{
+    width: 900px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.explaination{
+    font-size: 18px;
+}
+
+.paragraph{
+    margin-top: 60px;
+}
+.paragraph > h1{
+    margin-bottom: 10px;
+}
+
+.linked__img{
+    width: 100%;
+    margin-top: 60px;
+}
+.linked__img a img {
+    width: 100%;
+    border-radius: 5px;
+}
